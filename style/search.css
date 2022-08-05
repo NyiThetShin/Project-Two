@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.search_nav{
+    width: 90%;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_section{
+    padding:5px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+.home{
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home img{
+    width: 100%;
+
+}
+
+
+.search_container{
+    width: 80%;
+    margin: 0 auto;
+    padding:5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid yellow;
+}
+.input_section{
+    width: 450px;
+
+}
+.input_section input{
+    width: 100%;
+    padding:8px;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    outline:none;
+    font-size: 15px;
+    background: transparent;
+    color: whitesmoke;
+}
+.search_btn i{
+    font-size: 20px;
+    cursor: pointer;
+    color: yellow;
+}
+.show_container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:5px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: linear-gradient(to right,yellow,white);
+}
+.img_ctn{
+    width: 80%;
+    margin: 0 auto;
+    height: 70%;
+}
+.img_ctn img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.info{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart button{
+    cursor: pointer;
+}
+
+/* footer start  */
+
+    .footer_section{
+        width: 95%;
+        height: 15vh;
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid black;
+        margin-top:20px;
+        position: fixed;
+        bottom: 0;
+        left:50%;
+        transform: translateX(-50%);
+        background: transparent;
+        color: white;
+        letter-spacing: 3px;
+    }
+    .footer_left{
+        width: 300px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .payment_footer{
+        width: 50px;
+    }
+    .payment_footer img{
+        width: 100%;
+        object-fit:cover;
+    }
+
+    .footer_middle{
+        padding:5px;
+        width:300px;
+    }
+    .footer_middle >h3{
+        width: 100%;
+        text-align: center;
+    }
+    .footer_middle h3{
+        font-size: 30px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .footer_middle span{
+        color: red;
+    }
+
+
+    .footer_right{
+        width:300px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+    }
+    .footer_right i:hover{
+        color: blue;
+    }
+
+
+
+/* footer end  */
+
+
+/* media start  */
+
+    @media (max-width:800px) {
+        .footer_left{
+            display: none;
+        }
+        .input_section{
+         width: 300px;
+
+        }
+    }
+
+    @media (max-width:500px) {
+            .footer_section{
+        width: 95%;
+        height: 18vh;
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-top: 2px solid black;
+        margin-top:20px;
+        padding:5px;
+    }
+      .footer_right{
+        margin-top: 20px;
+    }
+    }
+
+
+    @media (max-width:450px) {
+         .input_section{
+         width:200px;
+
+        }
+    }
+/* media end  */
