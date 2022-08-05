@@ -9,7 +9,7 @@ let emailInput = document.querySelector('.email_input')
 let messageInput = document.querySelector('.message_input')
 let submitMessage = document.querySelector('.message_submit');
 homeSearch.addEventListener('click',() => {
-    window.location.href = "search.html";
+    window.location.href = "../html/search.html";
 })
 
 
