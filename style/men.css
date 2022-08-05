@@ -65,7 +65,7 @@ body{
             height: 50vh;
             margin: 0 auto;
             margin-top: 10px;
-            background-image: url(../image/pexels-dids-2911521.jpg);
+            background-image: url(./pexels-dids-2911521.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -202,10 +202,10 @@ body{
         align-items: center;
     }
     .first_discount{
-        background-image: url(../image/ian-dooley-FoF0w-d6Z74-unsplash.jpg);
+        background-image: url(./ian-dooley-FoF0w-d6Z74-unsplash.jpg);
     }
      .second_discount{
-        background-image: url(../image/logan-weaver-lgnwvr-G5RSe8i_Id8-unsplash.jpg);
+        background-image: url(./logan-weaver-lgnwvr-G5RSe8i_Id8-unsplash.jpg);
     }
     .first_discount,.second_discount{
         width: 40%;
