@@ -231,11 +231,11 @@ body{
 
     }
     .product_one{
-        background-image: url(../image/pexels-kai-pilger-996329.jpg);
+        background-image: url(./pexels-kai-pilger-996329.jpg);
         
     }
     .product_two{
-        background-image: url(../image/pexels-deepak-khirodwala-11617337.jpg);
+        background-image: url(./pexels-deepak-khirodwala-11617337.jpg);
     }
     .product_one,.product_two{
         width: 100%;
@@ -252,10 +252,10 @@ body{
         letter-spacing: 3px;
     }
     .product_three{
-        background-image: url(../image/pexels-marta-branco-1453008.jpg);
+        background-image: url(./pexels-marta-branco-1453008.jpg);
     }
     .product_four{
-        background-image: url(../image/pexels-saad-alawi-9986256.jpg);
+        background-image: url(./pexels-saad-alawi-9986256.jpg);
     }
     .product_three,.product_four{
         width: 16vw;
@@ -474,13 +474,13 @@ body{
         margin-top: 20px;
     }
     .summer_season{
-        background-image: url(../image/tamara-bellis-68csPWTnafo-unsplash.jpg);
+        background-image: url(././tamara-bellis-68csPWTnafo-unsplash.jpg);
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
      .winter_season{
-        background-image: url(../image/mohammed-hassan-fdCvrdYUJsY-unsplash.jpg);
+        background-image: url(././mohammed-hassan-fdCvrdYUJsY-unsplash.jpg);
         display: flex;
         justify-content: flex-start;
         align-items: center;
