@@ -65,7 +65,7 @@ body{
             height: 50vh;
             margin: 0 auto;
             margin-top: 10px;
-            background-image: url(../image/pexels-dids-2911521.jpg);
+            background-image: url(./pexels-dids-2911521.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -202,10 +202,10 @@ body{
         align-items: center;
     }
     .first_discount{
-        background-image: url(../image/arno-senoner-oCXVxwTFwqE-unsplash.jpg);
+        background-image: url(./arno-senoner-oCXVxwTFwqE-unsplash.jpg);
     }
      .second_discount{
-        background-image: url(../image/katelyn-macmillan-X1504kwZTnI-unsplash.jpg);
+        background-image: url(./katelyn-macmillan-X1504kwZTnI-unsplash.jpg);
     }
     .first_discount,.second_discount{
         width: 40%;
